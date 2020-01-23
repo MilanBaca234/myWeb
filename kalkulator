@@ -27,14 +27,14 @@
 		margin-bottom: 10px; 
 		text-align:center; 
 		width: 210px; 
-		color:red; 
+		color:Yellow; 
 		border: blue 2px; 
 		} 
 
 		input[type="button"] 
 		{ 
 		background-color:red; 
-		color: black; 
+		color: blue; 
 		border: solid black 2px; 
 		width:100% 
 		} 
@@ -59,7 +59,7 @@
 		<tr> 
 			<!-- create button and assign value to each button -->
 			<!-- dis("1") will call function dis to display value -->
-			<td><input type="button" value="1" onclick="dis('1')"/> </td> 
+			<td><input type="button" value="11" onclick="dis('1')"/> </td> 
 			<td><input type="button" value="2" onclick="dis('2')"/> </td> 
 			<td><input type="button" value="3" onclick="dis('3')"/> </td> 
 			<td><input type="button" value="/" onclick="dis('/')"/> </td> 
